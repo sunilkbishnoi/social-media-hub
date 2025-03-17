@@ -12,7 +12,7 @@ const determineCategory = (account: SocialAccount) => {
   const designPlatforms = ['Behance', 'Dribbble', 'CreativeMarket'];
   const socialPlatforms = ['Twitter', 'Instagram', 'Discord', 'Discord Server', 'Reddit', 'WhatsApp Channel', 'Telegram', 'Skype', 'Mastodon', 'BlueSky', 'Tumblr', 'Pinterest', 'Vero', 'Snapchat', 'VSCO', 'Twitch', 'Patreon', 'WeAre8'];
   const contentPlatforms = ['Medium', 'YouTube', 'Dev.to', 'Hashnode', 'Vimeo', 'Spotify'];
-  const linkInBioPlatforms = ['Linktr.ee', 'Solo.to', 'Tap.bio', 'Shor.by', 'Lnk.bio', 'About.me', 'Campsite.bio', 'Carrd', 'SunilBishnoi.bio', 'Invt.co', 'Lovable'];
+  const linkInBioPlatforms = ['Linktr.ee', 'Solo.to', 'Tap.bio', 'Shor.by', 'Lnk.bio', 'About.me', 'Campsite.bio', 'Carrd', 'SunilBishnoi.bio', 'Invt.co'];
 
   if (professionalPlatforms.includes(account.platform)) return 'Professional';
   if (developmentPlatforms.includes(account.platform)) return 'Development';

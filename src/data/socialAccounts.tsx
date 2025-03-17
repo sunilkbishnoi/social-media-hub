@@ -484,11 +484,11 @@ export const socialAccounts: SocialAccount[] = [
     signupUrl: 'https://invt.co/signup',
     icon: <Link className="w-5 h-5 text-purple-500" />,
   },
-  {
-    platform: 'Lovable',
-    username: 'sunilbishnoi',
-    url: 'https://lovable.dev/@sunilbishnoi',
-    signupUrl: 'https://lovable.dev/signup',
-    icon: <Heart className="w-5 h-5 text-red-500" />,
-  }
+  // {
+  //   platform: 'Lovable',
+  //   username: 'sunilbishnoi',
+  //   url: 'https://lovable.dev/@sunilbishnoi',
+  //   signupUrl: 'https://lovable.dev/signup',
+  //   icon: <Heart className="w-5 h-5 text-red-500" />,
+  // }
 ];
